@@ -12,9 +12,6 @@ if(length(.packages[!.inst]) > 0)
 # Load packages into session
 lapply(.packages, require, character.only = T)
 
-install_github("timriffe/DemoTools", force = TRUE)
-library(DemoTools) 
-
 #############################################################################################################
 
 topico <- "Primer"
